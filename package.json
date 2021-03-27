@@ -1,0 +1,45 @@
+{
+  "name": "parcel-vue-app",
+  "version": "1.0.0",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "source": "src/main.js",
+  "targets": {
+    "index": {
+      "includeNodeModules": {
+        "axios": true,
+        "vue": true,
+        "vue-router": true,
+        "vuex": true,
+        "mockjs": false
+      },
+      "context": "browser",
+      "distDir": "./buildDir",
+      "outputFormat": "esmodule",
+      "scopeHoist": false,
+      "optimize": true,
+      "publicUrl": "/site/test1"
+    }
+  },
+  "scripts": {
+    "serve": "parcel ./public/index.html --port 3000 --no-source-maps",
+    "build": "parcel build ./public/index.html --no-source-maps"
+  },
+  "devDependencies": {
+    "@parcel/transformer-image": "2.0.0-beta.2",
+    "@parcel/transformer-sass": "2.0.0-beta.2",
+    "@parcel/transformer-vue": "2.0.0-beta.2",
+    "@vue/compiler-sfc": "^3.0.9",
+    "mockjs": "^1.1.0",
+    "parcel": "^2.0.0-beta.2",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "vue": "^3.0.9",
+    "axios": "^0.21.1",
+    "vue-router": "4",
+    "vuex": "^4.0.0"
+  }
+}
