@@ -1,6 +1,6 @@
 <template>
   <img :src="imageUrl" alt="" type="image/png" class="logo" />
-  <HelloWorld msg="Hello Vue 3 + Parcel2" />
+  <HelloWorld msg="Hello, Parcel 2 + Vue 3" />
   <button @click="increment">
     Count is: {{ state.count }} Double is: {{ state.double }}
   </button>
