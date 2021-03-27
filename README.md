@@ -1,27 +1,29 @@
 # parcelVueApp
 
-#### 介绍
+#### Description
 Blazing fast, zero configuration vue application bundler.
 
-#### 软件架构
-软件架构说明
+#### Installation
 
+```
+npm install
+```
 
-#### 安装教程
+#### Instructions
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-#### 使用说明
+2. Compiles and minifies for production
+```
+npm run build
+```
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+#### Contribution
 
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+1.  Fork the repository
+2.  Create Feat_xxx branch
+3.  Commit your code
+4.  Create Pull Request
