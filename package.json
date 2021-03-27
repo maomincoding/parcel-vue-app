@@ -1,6 +1,21 @@
 {
   "name": "parcel-vue-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "description": "Blazing fast, zero configuration vue application bundler.",
+  "keywords": [
+    "parcel",
+    "vue"
+  ],
+  "private": false,
+  "author": {
+    "name": "maomincoding",
+    "email": "17864296568@163.com",
+    "url": "https://www.maomin.club"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maomincoding/parcel-vue-app.git"
+  },
   "license": "MIT",
   "engines": {
     "node": ">=14"
