@@ -1,6 +1,6 @@
 {
   "name": "parcel-vue-app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Blazing fast, zero configuration vue application bundler.",
   "keywords": [
     "parcel",
@@ -47,13 +47,16 @@
     "@parcel/transformer-sass": "2.0.0-beta.2",
     "@parcel/transformer-vue": "2.0.0-beta.2",
     "@vue/compiler-sfc": "^3.0.9",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.23.0",
+    "eslint-plugin-vue": "^7.8.0",
     "mockjs": "^1.1.0",
     "parcel": "^2.0.0-beta.2",
     "sass": "^1.32.8"
   },
   "dependencies": {
-    "vue": "^3.0.9",
     "axios": "^0.21.1",
+    "vue": "^3.0.9",
     "vue-router": "4",
     "vuex": "^4.0.0"
   }
