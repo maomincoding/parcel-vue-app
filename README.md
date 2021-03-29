@@ -1,5 +1,10 @@
 # parcelVueApp
+> You can install it through Parcel-Vue-Cli to build the project.
 
+**parcel-vue-cli**
+```
+https://www.npmjs.com/package/parcel-vue-cli
+```
 #### Description
 Blazing fast, zero configuration vue application bundler.
 
