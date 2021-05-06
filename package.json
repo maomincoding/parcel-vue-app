@@ -28,6 +28,7 @@
         "vue": true,
         "vue-router": true,
         "vuex": true,
+        "element-plus": true,
         "mockjs": false
       },
       "context": "browser",
@@ -43,11 +44,13 @@
     "build": "parcel build ./public/index.html --no-source-maps"
   },
   "devDependencies": {
+    "@parcel/babel-plugin-transform-runtime": "^2.0.0-nightly.1823",
     "@parcel/transformer-image": "2.0.0-beta.2",
     "@parcel/transformer-sass": "2.0.0-beta.2",
     "@parcel/transformer-vue": "2.0.0-beta.2",
     "@vue/compiler-sfc": "^3.0.9",
     "babel-eslint": "^10.1.0",
+    "babel-plugin-import": "^1.13.3",
     "eslint": "^7.23.0",
     "eslint-plugin-vue": "^7.8.0",
     "mockjs": "^1.1.0",
@@ -56,6 +59,7 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
+    "element-plus": "^1.0.2-beta.41",
     "vue": "^3.0.9",
     "vue-router": "4",
     "vuex": "^4.0.0"

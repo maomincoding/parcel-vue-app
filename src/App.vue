@@ -8,6 +8,7 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
+  <el-button>默认按钮</el-button>
   <router-view />
 </template>
 
@@ -44,8 +45,8 @@ h1 {
   color: $color;
 }
 
-.logo{
- width: 30%;
+.logo {
+  width: 30%;
 }
 
 #nav {
