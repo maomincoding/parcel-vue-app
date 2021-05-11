@@ -5,7 +5,7 @@
 <p align="center">Blazing fast, zero configuration vue application bundler.</p>
 
 
-> You can install it through Parcel-Vue-Cli to build the project.
+> You can install it through ParcelVueCli to build the project.
 > https://www.npmjs.com/package/parcel-vue-cli
 
 
