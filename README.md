@@ -1,4 +1,4 @@
-# parcelVueApp
+# parcel-vue-app
 <p align="center">
 <img src="https://www.maomin.club/data/logo.png" width="50%" alt="parcelVueCliLogo" title="parcelVueCliLogo"/>
 </p>
