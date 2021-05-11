@@ -6,6 +6,7 @@
 
 
 > You can install it through ParcelVueCli to build the project.
+> 
 > https://www.npmjs.com/package/parcel-vue-cli
 
 
