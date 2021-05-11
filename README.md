@@ -1,6 +1,6 @@
 # parcel-vue-app
 <p align="center">
-<img src="https://www.maomin.club/data/logo.png" width="50%" alt="parcelVueCliLogo" title="parcelVueCliLogo"/>
+<img src="https://www.maomin.club/data/logo.png" width="50%" alt="parcelVueAppLogo" title="parcelVueAppLogo"/>
 </p>
 <p align="center">Blazing fast, zero configuration vue application bundler.</p>
 
